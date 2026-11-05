@@ -4,8 +4,8 @@ build-backend = "hatchling.build"
 
 [project]
 name = "scc-valuation"
-version = "0.1.0"
-description = "Automated codebase replacement cost and effort evaluator using scc"
+version = "0.2.0"
+description = "Calibrated replacement-cost estimator using scc and git history"
 readme = "README.md"
 requires-python = ">=3.9"
 dependencies = []
