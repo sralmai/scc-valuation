@@ -1,0 +1,14 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "scc-valuation"
+version = "0.1.0"
+description = "Automated codebase replacement cost and effort evaluator using scc"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = []
+
+[project.scripts]
+scc-valuation = "scc_valuation.cli:main"
